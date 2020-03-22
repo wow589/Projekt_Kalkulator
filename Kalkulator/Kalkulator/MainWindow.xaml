@@ -1,0 +1,58 @@
+﻿<Window x:Class="Kalkulator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kalkulator"
+        mc:Ignorable="d"
+        Title="Kalkulator" Height="500" Width="350">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1.5*"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <!--Numeryczne-->
+        <Button x:Name="przycisk7" Grid.Row="2" Grid.Column="0" FontSize="20" Content="7"/>
+        <Button x:Name="przycisk8" Grid.Row="2" Grid.Column="1" FontSize="20" Content="8"/>
+        <Button x:Name="przycisk9" Grid.Row="2" Grid.Column="2" FontSize="20" Content="9"/>
+        <Button x:Name="przycisk4" Grid.Row="3" Grid.Column="0" FontSize="20" Content="4"/>
+        <Button x:Name="przycisk5" Grid.Row="3" Grid.Column="1" FontSize="20" Content="5"/>
+        <Button x:Name="przycisk6" Grid.Row="3" Grid.Column="2" FontSize="20" Content="6"/>
+        <Button x:Name="przycisk1" Grid.Row="4" Grid.Column="0" FontSize="20" Content="1"/>
+        <Button x:Name="przycisk2" Grid.Row="4" Grid.Column="1" FontSize="20" Content="2"/>
+        <Button x:Name="przycisk3" Grid.Row="4" Grid.Column="2" FontSize="20" Content="3"/>
+        <Button x:Name="przycisk0" Grid.Row="5" Grid.Column="1" FontSize="20" Content="0"/>
+
+        <!--Matematyczne-->
+        <Button x:Name="przyciskDzielenie" Grid.Row="1" Grid.Column="3" FontSize="20" Content="/"/>
+        <Button x:Name="przyciskMnozenie" Grid.Row="2" Grid.Column="3" FontSize="20" Content="*"/>
+        <Button x:Name="przyciskOdejmowanie" Grid.Row="3" Grid.Column="3" FontSize="20" Content="-"/>
+        <Button x:Name="przyciskDodawanie" Grid.Row="4" Grid.Column="3" FontSize="20" Content="+"/>
+        <Button x:Name="przyciskRownanie" Grid.Row="5" Grid.Column="3" FontSize="20" Content="="/>
+        <Button x:Name="przyciskZmianaZnaku" Grid.Row="5" Grid.Column="0" FontSize="20" Content="+/-"/>
+
+        <!--Czyszczace-->
+        <Button x:Name="przyciskCE" Grid.Row="1" Grid.Column="0" FontSize="20" Content="CE"/>
+        <Button x:Name="przyciskC" Grid.Row="1" Grid.Column="1" FontSize="20" Content="C"/>
+        <Button x:Name="przyciskDEL" Grid.Row="1" Grid.Column="2" FontSize="20" Content="DEL"/>
+
+        <!--Przecinek-->
+        <Button x:Name="przyciskPrzecinek" Grid.Row="5" Grid.Column="2" FontSize="20" Content=","/>
+
+        <!--Wyświetlacz-->
+        <TextBox x:Name="wyswietlaczTextBox" IsReadOnly="True" TextAlignment="Right" VerticalAlignment="Bottom" FontSize="42" BorderThickness="0" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Text="0"/>
+
+    </Grid>
+</Window>
