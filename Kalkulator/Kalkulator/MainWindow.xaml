@@ -24,29 +24,29 @@
         </Grid.RowDefinitions>
 
         <!--Numeryczne-->
-        <Button x:Name="przycisk7" Grid.Row="2" Grid.Column="0" FontSize="20" Content="7"/>
-        <Button x:Name="przycisk8" Grid.Row="2" Grid.Column="1" FontSize="20" Content="8"/>
-        <Button x:Name="przycisk9" Grid.Row="2" Grid.Column="2" FontSize="20" Content="9"/>
-        <Button x:Name="przycisk4" Grid.Row="3" Grid.Column="0" FontSize="20" Content="4"/>
-        <Button x:Name="przycisk5" Grid.Row="3" Grid.Column="1" FontSize="20" Content="5"/>
-        <Button x:Name="przycisk6" Grid.Row="3" Grid.Column="2" FontSize="20" Content="6"/>
-        <Button x:Name="przycisk1" Grid.Row="4" Grid.Column="0" FontSize="20" Content="1"/>
-        <Button x:Name="przycisk2" Grid.Row="4" Grid.Column="1" FontSize="20" Content="2"/>
-        <Button x:Name="przycisk3" Grid.Row="4" Grid.Column="2" FontSize="20" Content="3"/>
-        <Button x:Name="przycisk0" Grid.Row="5" Grid.Column="1" FontSize="20" Content="0"/>
+        <Button x:Name="przycisk7" Grid.Row="2" Grid.Column="0" FontSize="20" Content="7" Click="przycisk7_Click"/>
+        <Button x:Name="przycisk8" Grid.Row="2" Grid.Column="1" FontSize="20" Content="8" Click="przycisk8_Click"/>
+        <Button x:Name="przycisk9" Grid.Row="2" Grid.Column="2" FontSize="20" Content="9" Click="przycisk9_Click"/>
+        <Button x:Name="przycisk4" Grid.Row="3" Grid.Column="0" FontSize="20" Content="4" Click="przycisk4_Click"/>
+        <Button x:Name="przycisk5" Grid.Row="3" Grid.Column="1" FontSize="20" Content="5" Click="przycisk5_Click"/>
+        <Button x:Name="przycisk6" Grid.Row="3" Grid.Column="2" FontSize="20" Content="6" Click="przycisk6_Click"/>
+        <Button x:Name="przycisk1" Grid.Row="4" Grid.Column="0" FontSize="20" Content="1" Click="przycisk1_Click"/>
+        <Button x:Name="przycisk2" Grid.Row="4" Grid.Column="1" FontSize="20" Content="2" Click="przycisk2_Click"/>
+        <Button x:Name="przycisk3" Grid.Row="4" Grid.Column="2" FontSize="20" Content="3" Click="przycisk3_Click"/>
+        <Button x:Name="przycisk0" Grid.Row="5" Grid.Column="1" FontSize="20" Content="0" Click="przycisk0_Click"/>
 
         <!--Matematyczne-->
-        <Button x:Name="przyciskDzielenie" Grid.Row="1" Grid.Column="3" FontSize="20" Content="/"/>
-        <Button x:Name="przyciskMnozenie" Grid.Row="2" Grid.Column="3" FontSize="20" Content="*"/>
-        <Button x:Name="przyciskOdejmowanie" Grid.Row="3" Grid.Column="3" FontSize="20" Content="-"/>
-        <Button x:Name="przyciskDodawanie" Grid.Row="4" Grid.Column="3" FontSize="20" Content="+"/>
-        <Button x:Name="przyciskRownanie" Grid.Row="5" Grid.Column="3" FontSize="20" Content="="/>
-        <Button x:Name="przyciskZmianaZnaku" Grid.Row="5" Grid.Column="0" FontSize="20" Content="+/-"/>
+        <Button x:Name="przyciskDzielenie" Grid.Row="1" Grid.Column="3" FontSize="20" Content="/" Click="przyciskDzielenie_Click"/>
+        <Button x:Name="przyciskMnozenie" Grid.Row="2" Grid.Column="3" FontSize="20" Content="*" Click="przyciskMnozenie_Click"/>
+        <Button x:Name="przyciskOdejmowanie" Grid.Row="3" Grid.Column="3" FontSize="20" Content="-" Click="przyciskOdejmowanie_Click"/>
+        <Button x:Name="przyciskDodawanie" Grid.Row="4" Grid.Column="3" FontSize="20" Content="+" Click="przyciskDodawanie_Click"/>
+        <Button x:Name="przyciskRownanie" Grid.Row="5" Grid.Column="3" FontSize="20" Content="=" Click="przyciskRownanie_Click"/>
+        <Button x:Name="przyciskZmianaZnaku" Grid.Row="5" Grid.Column="0" FontSize="20" Content="+/-" Click="przyciskZmianaZnaku_Click"/>
 
         <!--Czyszczace-->
-        <Button x:Name="przyciskCE" Grid.Row="1" Grid.Column="0" FontSize="20" Content="CE"/>
-        <Button x:Name="przyciskC" Grid.Row="1" Grid.Column="1" FontSize="20" Content="C"/>
-        <Button x:Name="przyciskDEL" Grid.Row="1" Grid.Column="2" FontSize="20" Content="DEL"/>
+        <Button x:Name="przyciskCE" Grid.Row="1" Grid.Column="0" FontSize="20" Content="CE" Click="przyciskCE_Click"/>
+        <Button x:Name="przyciskC" Grid.Row="1" Grid.Column="1" FontSize="20" Content="C" Click="przyciskC_Click"/>
+        <Button x:Name="przyciskDEL" Grid.Row="1" Grid.Column="2" FontSize="20" Content="DEL" Click="przyciskDEL_Click"/>
 
         <!--Przecinek-->
         <Button x:Name="przyciskPrzecinek" Grid.Row="5" Grid.Column="2" FontSize="20" Content=","/>
